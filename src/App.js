@@ -5,6 +5,8 @@ import Hero from './components/Hero';
 import Features from './components/Features';
 import About from './components/About';
 import Testimonials from './components/Testimonials';
+import Footer from './components/Footer';
+import Cta from './components/Cta';
 import "./scss/_globals.scss"
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
       <Features />
       <About />
       <Testimonials />
+      <Cta />
+      <Footer />
     </div>
   );
 }

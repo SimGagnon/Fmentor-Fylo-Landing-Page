@@ -1,1 +1,27 @@
 @import "variables";
+
+.footer {
+    text-align: left;
+    padding: 16.1875rem 1.75rem 3.25rem 1.75rem;
+    background-color: $DarkBlueFooter;
+
+    &__logo {
+        margin-bottom: 2.1875rem;
+    }
+
+    &__nav {
+
+        ul {
+
+            &:not(:last-child) {
+                margin-bottom: 3rem;
+            }
+
+            li {
+                &:not(:last-child) {
+                    margin-bottom: 1rem;
+                }    
+            }
+        }
+    }
+}

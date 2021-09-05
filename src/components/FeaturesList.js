@@ -7,7 +7,7 @@ function FeaturesList(props) {
                 <img src={props.image} alt="" />
             </div>
             <h2>{props.title}</h2>
-            <p>{props.description}</p>
+            <p>{props.description}</p>  
         </div>
     )
 }

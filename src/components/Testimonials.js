@@ -9,7 +9,7 @@ function TestimonialsItem(TestimonialsData) {
         key={TestimonialsData.id}
         image={TestimonialsData.image}
         name={TestimonialsData.name}
-        description={TestimonialsData.name}
+        description={TestimonialsData.description}
         role={TestimonialsData.role}
       />
     );
@@ -18,7 +18,7 @@ function TestimonialsItem(TestimonialsData) {
 function Testimonials() {
     return (
         <section className="testimonials">
-            {TestimonialsData.map(TestimonialsList)}
+            {TestimonialsData.map(TestimonialsItem)}
         </section>
     )
 }
