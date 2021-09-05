@@ -16,9 +16,33 @@ body {
     padding: 0;
     background-color: $DarkBlueIntro;
     color: $White;
+    text-align: center;
 
+}
+
+p {
+    line-height: 1.3125rem;
+    font-size: 0.875rem;
 }
 
 li {
     list-style: none;
+}
+
+h1,h2,h3,h4,h5 {
+    color: $White;
+}
+
+.button {
+    background-color: $Cyan;
+    border-radius: 1.5rem;
+    color: $White;
+    border: none;
+    padding: 1rem 0;
+    width: 100%;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $CyanHover;
+    }
 }
