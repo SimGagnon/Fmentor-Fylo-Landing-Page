@@ -15,10 +15,18 @@
 
         h1 {
             margin-bottom: 0.9375rem;
+            padding: 0 1.75rem;
+            line-height: 2.25rem;
         }
 
         p {
             margin-bottom: 2rem;
+            padding: 0 2.5rem;
+        }
+
+        button {
+            padding-right: 4.25rem;
+            padding-left: 4.25rem;
         }
     }
 }
