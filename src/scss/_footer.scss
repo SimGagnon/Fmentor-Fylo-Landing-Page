@@ -12,15 +12,31 @@
     &__nav {
 
         ul {
+            margin-bottom: 3rem;
 
-            &:not(:last-child) {
-                margin-bottom: 3rem;
+            &:last-child {
+                margin-bottom: 3.5rem;
             }
 
             li {
                 &:not(:last-child) {
                     margin-bottom: 1rem;
                 }    
+            }
+        }
+    }
+
+    &__socials {
+        text-align: center;
+
+        svg {
+
+            &:not(:last-child) {
+                margin-right: 0.615rem;
+            }
+
+            &:hover {
+                color: $Cyan;
             }
         }
     }
