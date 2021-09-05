@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
 import Hero from './components/Hero';
-import About from './components/About';
+import Features from './components/Features';
 import "./scss/_globals.scss"
 
 
@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <Header />
       <Hero />
-      <About />
+      <Features />
     </div>
   );
 }

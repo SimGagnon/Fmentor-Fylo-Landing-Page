@@ -5,7 +5,7 @@ import Time from "../assets/icon-collaboration.svg"
 import Files from "../assets/icon-any-file.svg"
 
 
-const AboutData = [
+const FeaturesData = [
     {
         id: 1,
         image: Computer,
@@ -32,4 +32,4 @@ const AboutData = [
       },
   ];
   
-  export default AboutData;
+  export default FeaturesData;
