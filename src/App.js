@@ -3,9 +3,8 @@ import './App.css';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Features from './components/Features';
+import About from './components/About';
 import "./scss/_globals.scss"
-
-
 
 function App() {
   return (
@@ -13,6 +12,7 @@ function App() {
       <Header />
       <Hero />
       <Features />
+      <About />
     </div>
   );
 }
