@@ -5,10 +5,10 @@ import "../scss/_header.scss";
 function Header() {
     return (
         <header className="header">
-            <div>
+            <div className="header__image">
                 <img src={FyloLogo} alt="Fylo landing page logo" />
             </div>
-            <nav>
+            <nav className="header__nav">
                 <ul>
                     <li>Features</li>
                     <li>Team</li>

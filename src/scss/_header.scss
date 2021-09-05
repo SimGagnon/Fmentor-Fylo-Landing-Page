@@ -1,1 +1,31 @@
 @import "variables";
+
+.header {
+    padding: 1.5rem 1.25rem 0 1.25rem;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+
+    &__image {
+        flex: 1;
+
+        img {
+            width: 56%;
+        }
+    }
+
+    &__nav {
+        
+        ul {
+            display: flex;
+        }
+
+        li {
+            font-size: 0.75rem;
+
+            &:not(:last-child) {
+                margin-right: 1.5625rem;
+            }
+        }
+    }
+}
