@@ -20,6 +20,10 @@ body {
 
 }
 
+button,li,svg {
+    cursor: pointer;
+}
+
 p {
     line-height: 1.3125rem;
     font-size: 0.875rem;
@@ -27,6 +31,7 @@ p {
 
 li {
     list-style: none;
+    
 }
 
 h1,h2,h3,h4,h5 {
