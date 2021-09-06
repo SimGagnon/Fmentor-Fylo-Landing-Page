@@ -17,7 +17,10 @@ body {
     background-color: $DarkBlueIntro;
     color: $White;
     text-align: center;
+}
 
+main {
+    background-color: $DarkBlueMain;
 }
 
 button,li,svg {
@@ -39,7 +42,7 @@ h1,h2,h3,h4,h5 {
 }
 
 .button {
-    background-color: $Cyan;
+    background: linear-gradient(132.02deg, #63E1D9 -31.85%, #34A0CD 100%);
     border-radius: 1.5rem;
     color: $White;
     border: none;
@@ -47,6 +50,6 @@ h1,h2,h3,h4,h5 {
     cursor: pointer;
 
     &:hover {
-        background-color: $CyanHover;
+        background: $CyanHover;
     }
 }

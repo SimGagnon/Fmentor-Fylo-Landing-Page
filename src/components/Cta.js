@@ -11,7 +11,7 @@ function Cta() {
                 </div>
                 <div className="cta__inputs">
                     <input type="text" />
-                    <button className="button">Get Started For Free</button>
+                    <button className="button" placeholder="email@example.com">Get Started For Free</button>
                 </div>
             </div>
         </section>

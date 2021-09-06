@@ -12,6 +12,10 @@
     }
 
     &__text {
+        background-image: url("../assets/bg-curvy-mobile.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom;
 
         h1 {
             margin-bottom: 0.9375rem;

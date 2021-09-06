@@ -28,10 +28,17 @@
         input {
             margin-bottom: 1.5rem;
             width: 100%;
+            padding: 1.1875rem 0rem 0.9375rem 1.8125rem;
+            border-radius: 1.5rem;
+            border: none;
         }
 
         button {
             width: 100%;
+
+            &::placeholder {
+                color: grey;
+            }
         }
     }
 }
