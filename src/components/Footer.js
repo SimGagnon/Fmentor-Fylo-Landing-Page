@@ -5,6 +5,8 @@ import FacebookIcon from '@material-ui/icons/Facebook';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import IconLocation from "../assets/icon-location.svg"
+import IconPhone from "../assets/icon-phone.svg"
+import IconEmail from "../assets/icon-email.svg"
 
 function Footer() {
     return (
@@ -12,17 +14,17 @@ function Footer() {
             <div className="footer__logo">
                 <img src={FyloLogo} />
             </div>
-            <div className="footer__location">
+            <div className="footer__location footer__item">
                 <img src={IconLocation} alt="" />
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
             </div>
             <div>
-                <div className="footer__contact__item">
-                    <img src={IconLocation} alt="" />
+                <div className="footer__contact footer__item">
+                    <img src={IconPhone} alt="" />
                     <p>+1-543-123-4567</p>
                 </div>
-                <div>
-                    <img src={IconLocation} alt="" />
+                <div className="footer__item">
+                    <img src={IconEmail} alt="" />
                     <p>example@fylo.com</p>
                 </div>
             </div>
