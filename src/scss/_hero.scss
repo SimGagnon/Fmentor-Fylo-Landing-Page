@@ -37,3 +37,13 @@
         }
     }
 }
+
+@media screen and (min-width: 50em) {
+
+    .hero {
+        background-image: url("../assets/bg-curvy-desktop.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom;
+    }
+}

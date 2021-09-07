@@ -8,6 +8,8 @@
         padding: 1.5rem 1.25rem 1.3125rem 1.25rem;
         text-align: left;
         border-radius: 3.93px;
+        max-width: 22.5rem;
+        margin: auto;
 
         &:first-child {
             position: relative;
@@ -46,12 +48,30 @@
 
             h3 {
                 font-size: 0.625rem;
+                letter-spacing: 0.5px;
             }
 
             small {
                 font-size: 0.4375rem;
             }
             
+        }
+    }
+}
+
+@media screen and (min-width: 50em) {
+
+    .testimonials {
+        display: flex;
+
+        &__items  {
+            margin-bottom: 0;
+            padding: 2.5rem 1.54375rem 1.625rem 1.625rem;
+
+            &:not(:last-child) {
+                margin-bottom: 0;
+                margin-right: 2.5rem;
+            }
         }
     }
 }

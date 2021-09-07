@@ -14,37 +14,39 @@ function Footer() {
             <div className="footer__logo">
                 <img src={FyloLogo} />
             </div>
-            <div className="footer__location footer__item">
-                <img src={IconLocation} alt="" />
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-            </div>
-            <div>
-                <div className="footer__contact footer__item">
-                    <img src={IconPhone} alt="" />
-                    <p>+1-543-123-4567</p>
+            <div className="container">
+                <div className="footer__location footer__item">
+                    <img src={IconLocation} alt="" />
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                 </div>
-                <div className="footer__item">
-                    <img src={IconEmail} alt="" />
-                    <p>example@fylo.com</p>
+                <div>
+                    <div className="footer__contact footer__item">
+                        <img src={IconPhone} alt="" />
+                        <p>+1-543-123-4567</p>
+                    </div>
+                    <div className="footer__item">
+                        <img src={IconEmail} alt="" />
+                        <p>example@fylo.com</p>
+                    </div>
                 </div>
-            </div>
-            <div className="footer__nav">
-                <ul>
-                    <li>About us</li>
-                    <li>Jobs</li>
-                    <li>Press</li>
-                    <li>Blog</li>
-                </ul>
-                <ul>
-                    <li>Contact Us</li>
-                    <li>Terms</li>
-                    <li>Privacy</li>
-                </ul>
-            </div>
-            <div className="footer__socials">
-                <FacebookIcon />
-                <TwitterIcon />
-                <InstagramIcon />
+                <div className="footer__nav">
+                    <ul>
+                        <li>About us</li>
+                        <li>Jobs</li>
+                        <li>Press</li>
+                        <li>Blog</li>
+                    </ul>
+                    <ul>
+                        <li>Contact Us</li>
+                        <li>Terms</li>
+                        <li>Privacy</li>
+                    </ul>
+                </div>
+                <div className="footer__socials">
+                    <FacebookIcon />
+                    <TwitterIcon />
+                    <InstagramIcon />
+                </div>
             </div>
         </footer>
     )
