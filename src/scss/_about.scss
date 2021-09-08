@@ -41,3 +41,39 @@
         }
     }
 }
+
+@media screen and (min-width: 50em) {
+    .about {
+        display: flex;
+        align-items: center;
+
+        &__img {
+            margin-bottom: 0;
+            margin-right: 3.5775rem;
+            width: 38.4225rem;
+        }
+
+        &__text {
+
+            h2 {
+                font-size: 2.5rem;
+                line-height: 3.125rem;
+                margin-bottom: 1.1875rem;
+            }
+
+            p {
+                font-size: 1rem;
+                line-height: 1.5rem;
+                max-width: 35.1875rem;
+
+                &:not(:last-child) {
+                    margin-bottom: 1rem;
+                }
+            }
+
+            small {
+                font-size: 1rem;
+            }
+        }
+    }
+}

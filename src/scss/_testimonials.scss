@@ -68,6 +68,12 @@
             margin-bottom: 0;
             padding: 2.5rem 1.54375rem 1.625rem 1.625rem;
 
+            p {
+                letter-spacing: 0.5px;
+                font-size: 0.875rem;
+                line-height: 1.1325rem;
+            }
+
             &:not(:last-child) {
                 margin-bottom: 0;
                 margin-right: 2.5rem;
