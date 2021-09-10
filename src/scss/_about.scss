@@ -6,7 +6,7 @@
 
     &__img {
         margin-bottom: 3rem;
-        
+
         img {
             width: 100%;
         }
@@ -46,6 +46,8 @@
     .about {
         display: flex;
         align-items: center;
+        max-width: 77.1875rem;
+        margin: auto;
 
         &__img {
             margin-bottom: 0;

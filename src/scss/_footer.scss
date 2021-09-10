@@ -79,6 +79,8 @@
 
         .container {
             display: flex;
+            max-width: 77.5rem;
+            margin: auto;
         }
 
         &__location {
