@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Fmentor-Fylo-Landing-Page/static/css/main.e990ab3f.chunk.css",
+    "main.js": "/Fmentor-Fylo-Landing-Page/static/js/main.580fbc66.chunk.js",
+    "main.js.map": "/Fmentor-Fylo-Landing-Page/static/js/main.580fbc66.chunk.js.map",
+    "runtime-main.js": "/Fmentor-Fylo-Landing-Page/static/js/runtime-main.83ea317b.js",
+    "runtime-main.js.map": "/Fmentor-Fylo-Landing-Page/static/js/runtime-main.83ea317b.js.map",
+    "static/js/2.eb943039.chunk.js": "/Fmentor-Fylo-Landing-Page/static/js/2.eb943039.chunk.js",
+    "static/js/2.eb943039.chunk.js.map": "/Fmentor-Fylo-Landing-Page/static/js/2.eb943039.chunk.js.map",
+    "static/js/3.7227ffc0.chunk.js": "/Fmentor-Fylo-Landing-Page/static/js/3.7227ffc0.chunk.js",
+    "static/js/3.7227ffc0.chunk.js.map": "/Fmentor-Fylo-Landing-Page/static/js/3.7227ffc0.chunk.js.map",
+    "index.html": "/Fmentor-Fylo-Landing-Page/index.html",
+    "static/css/main.e990ab3f.chunk.css.map": "/Fmentor-Fylo-Landing-Page/static/css/main.e990ab3f.chunk.css.map",
+    "static/js/2.eb943039.chunk.js.LICENSE.txt": "/Fmentor-Fylo-Landing-Page/static/js/2.eb943039.chunk.js.LICENSE.txt",
+    "static/media/_hero.scss": "/Fmentor-Fylo-Landing-Page/static/media/bg-curvy-mobile.3ab5d2c7.svg",
+    "static/media/icon-access-anywhere.2856c661.svg": "/Fmentor-Fylo-Landing-Page/static/media/icon-access-anywhere.2856c661.svg",
+    "static/media/icon-any-file.fc9b91ba.svg": "/Fmentor-Fylo-Landing-Page/static/media/icon-any-file.fc9b91ba.svg",
+    "static/media/_about.scss": "/Fmentor-Fylo-Landing-Page/static/media/icon-arrow.2491a46a.svg",
+    "static/media/icon-collaboration.6c80c0a4.svg": "/Fmentor-Fylo-Landing-Page/static/media/icon-collaboration.6c80c0a4.svg",
+    "static/media/icon-email.201ea9e2.svg": "/Fmentor-Fylo-Landing-Page/static/media/icon-email.201ea9e2.svg",
+    "static/media/icon-location.a681f02d.svg": "/Fmentor-Fylo-Landing-Page/static/media/icon-location.a681f02d.svg",
+    "static/media/icon-phone.43c05d1a.svg": "/Fmentor-Fylo-Landing-Page/static/media/icon-phone.43c05d1a.svg",
+    "static/media/icon-security.b6a932b6.svg": "/Fmentor-Fylo-Landing-Page/static/media/icon-security.b6a932b6.svg",
+    "static/media/illustration-intro.c20d8525.png": "/Fmentor-Fylo-Landing-Page/static/media/illustration-intro.c20d8525.png",
+    "static/media/illustration-stay-productive.5d7a50ea.png": "/Fmentor-Fylo-Landing-Page/static/media/illustration-stay-productive.5d7a50ea.png",
+    "static/media/logo.6ce24c58.svg": "/Fmentor-Fylo-Landing-Page/static/media/logo.6ce24c58.svg",
+    "static/media/logo.f5363383.svg": "/Fmentor-Fylo-Landing-Page/static/media/logo.f5363383.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.83ea317b.js",
+    "static/js/2.eb943039.chunk.js",
+    "static/css/main.e990ab3f.chunk.css",
+    "static/js/main.580fbc66.chunk.js"
+  ]
+}
