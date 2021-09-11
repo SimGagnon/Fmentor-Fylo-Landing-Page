@@ -43,7 +43,7 @@ li {
     
 }
 
-h1,h2,h3,h4,h5 {
+h1,h2,h3,h4,h5,button {
     color: $White;
     font-family: $Raleway;
 }
@@ -54,6 +54,7 @@ h1,h2,h3,h4,h5 {
     color: $White;
     border: none;
     cursor: pointer;
+    font-weight: bold;
 
     &:hover {
         background: $CyanHover;

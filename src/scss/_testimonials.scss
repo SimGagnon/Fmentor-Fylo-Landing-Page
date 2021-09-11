@@ -72,7 +72,11 @@
             p {
                 letter-spacing: 0.5px;
                 font-size: 0.875rem;
-                line-height: 1.1325rem;
+                line-height: 1.3125rem;
+            }
+
+            h3 {
+                font-family: $OpenSans;
             }
 
             &:not(:last-child) {
@@ -80,5 +84,13 @@
                 margin-right: 2.5rem;
             }
         }
+    }
+}
+
+@media screen and (min-width: 80em) {
+
+    .testimonials {
+        padding-left: 0;
+        padding-right: 0;
     }
 }
