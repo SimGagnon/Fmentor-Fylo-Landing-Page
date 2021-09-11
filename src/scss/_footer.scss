@@ -60,8 +60,9 @@
 
     &__socials {
         text-align: center;
+        min-width: 7.5rem;
 
-        svg {
+        a {
 
             &:not(:last-child) {
                 margin-right: 0.615rem;

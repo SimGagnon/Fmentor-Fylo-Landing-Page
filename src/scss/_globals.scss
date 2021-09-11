@@ -27,6 +27,11 @@ button,li,svg {
     cursor: pointer;
 }
 
+a,a:visited {
+    color: inherit;
+    display: inline-block;
+}
+
 p {
     line-height: 1.3125rem;
     font-size: 0.875rem;

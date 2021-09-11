@@ -43,9 +43,9 @@ function Footer() {
                     </ul>
                 </div>
                 <div className="footer__socials">
-                    <FacebookIcon />
-                    <TwitterIcon />
-                    <InstagramIcon />
+                    <a href="https://www.facebook.com/"><FacebookIcon /></a>
+                    <a href="https://twitter.com/"><TwitterIcon /></a>
+                    <a href="https://www.instagram.com/"><InstagramIcon /></a>
                 </div>
             </div>
         </footer>
