@@ -2,6 +2,12 @@ import React from 'react'
 import "../scss/_cta.scss";
 
 function Cta() {
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        console.log("clicked");
+    }
+
     return (
         <section className="cta">
             <div className="cta__container">
@@ -11,7 +17,7 @@ function Cta() {
                 </div>
                 <div className="cta__inputs">
                     <input type="text" />
-                    <button className="button" placeholder="email@example.com">Get Started For Free</button>
+                    <button className="button" placeholder="email@example.com" onClick={handleSubmit}>Get Started For Free</button>
                 </div>
             </div>
         </section>
