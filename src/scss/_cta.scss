@@ -61,6 +61,11 @@
 
         &__text {
 
+            h2 {
+                font-size: 2rem;
+                line-height: 3rem;
+            }
+
             p {
                 margin-bottom: 2.375rem;
             }
@@ -72,10 +77,11 @@
 
             input {
                 margin-right: 1.8125rem;
+                margin-bottom: 0;
             }
 
             button {
-                width: 12.5rem;
+                min-width: 12.5rem;
             }
         }
     }

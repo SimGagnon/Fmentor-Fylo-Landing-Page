@@ -35,6 +35,10 @@
         grid-column-gap: 9.1875rem;
 
         &__item {
+
+            &:nth-child(3),&:nth-child(4) {
+                margin-bottom: 0;
+            }
             
             h2 {
                 font-size: 1.25rem;
